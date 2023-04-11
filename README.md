@@ -8,47 +8,47 @@ This project is to use Machine Learning strategies such as resampling and boosti
 
 The following are the results from the Imbalanced Classification report and the Balanced Accuracy score from each Machine Learning  methods used:  
 
-### The Naive Random Oversampling method has:
+### Naive Random Oversampling method:
 
-  + A balanced accuracy score of 0.63669.
-  + A high risk precision score of 0.01 and a recall score of 0.62.
-  + A low risk precision score of 1.00 and a recall score of 0.65.
-
-
-
-### The SMOTE Oversampling method has:
-
-  + A balanced accuracy score of 0.63027.
-  + A high risk precision score of 0.01 and a recall score of 0.62.
-  + A low risk precision score of 1.00 and a recall score of 0.64.
+  + A balanced accuracy score of 0.6504.
+  + A high risk precision score of 0.01 and a recall score of 0.68.
+  + A low risk precision score of 1.00 and a recall score of 0.62.
 
 
-### The Undersampling method has:
 
-  + A balanced accuracy score of 0.63669.
-  + A high risk precision score of 0.01 and a recall score of 0.59.
-  + A low risk precision score of 1.00 and a recall score of 0.43.
+### SMOTE Oversampling method:
+
+  + A balanced accuracy score of 0.6584
+  + A high risk precision score of 0.01 and a recall score of 0.63.
+  + A low risk precision score of 1.00 and a recall score of 0.68.
 
 
-### The Combination (Over and Under) Sampling method has:
+### Undersampling method:
 
-  + A balanced accuracy score of 0.51027.
-  + A high risk precision score of 0.01 and a recall score of 0.70.
+  + A balanced accuracy score of 0.5447
+  + A high risk precision score of 0.01 and a recall score of 0.72.
   + A low risk precision score of 1.00 and a recall score of 0.57.
 
 
-### The Balanced Random Forest Classifier method has:
+### Combination (Over and Under) Sampling method:
 
-  + A balanced accuracy score of 0.78776.
+  + A balanced accuracy score of 0.6449
+  + A high risk precision score of 0.01 and a recall score of 0.76.
+  + A low risk precision score of 1.00 and a recall score of 0.59.
+
+
+### Balanced Random Forest Classifier method:
+
+  + A balanced accuracy score of 0.7878
   + A high risk precision score of 0.04 and a recall score of 0.67.
   + A low risk precision score of 1.00 and a recall score of 0.91.
 
-### The Easy Ensemble AdaBoost Classifier method has:
+### Easy Ensemble AdaBoost Classifier method:
 
-  + A balanced accuracy score of 0.92542.
+  + A balanced accuracy score of 0.9254
   + A high risk precision score of 0.07 and a recall score of 0.91.
   + A low risk precision score of 1.00 and a recall score of 0.94.
 
 ## Summary
 
-According to all the results we got during the project and based on all the different methods we used, we can say that the best option to perform a credit risk analysis is to use the "Easy Ensemble AdaBoost Classifier method." This method not only surpasses all the others' balanced accuracy scores but also the high and low risk precision scores along with the total recall score. Due to these facts, the Easy Ensemble AdaBoost Classifier method is the best option for companies, banks, or any other financial institutions to use in order to avoid present and future credit risks.
+Based on the results from the various Machine Learning algorithms ran, the best option to perform a credit risk analysis is "Easy Ensemble AdaBoost Classifier method." This methods provides better accuarcy score (0.09254) in the modeling as opposed to all others. Better imbalanced classification results were also observed. 
