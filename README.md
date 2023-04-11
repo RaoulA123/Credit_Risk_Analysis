@@ -2,11 +2,11 @@
 
 ## Overview of the project
 
-The purpose of this project is to help a fast-lending company use Machine Learning strategies such as resampling and boosting so they can predict if there is a credit risk before closing any contract with clients. In addition, we will use Machine Learning for the long-term solution by creating algorithms that let us know if the person can still be a good client in the future or if it can become a risk for the company. 
+This project is to use Machine Learning strategies such as resampling and boosting to predict if there is a credit risk before offering credit to potential customers. In addition, we will use Machine Learning for the long-term solution by creating algorithms that let us know if the person can still be a good client in the future or if it can become a risk for the company. 
 
 ## Results
 
-After some programming and algorithms, we were able to gather the following results:
+The following are results of programming methods used to assess risk: 
 
 ### The Naive Random Oversampling method has:
 
@@ -30,13 +30,11 @@ After some programming and algorithms, we were able to gather the following resu
   + A low risk precision score of 1.00 and a recall score of 0.43.
 
 
-
 ### The Combination (Over and Under) Sampling method has:
 
   + A balanced accuracy score of 0.51027.
   + A high risk precision score of 0.01 and a recall score of 0.70.
   + A low risk precision score of 1.00 and a recall score of 0.57.
-
 
 
 ### The Balanced Random Forest Classifier method has:
@@ -45,13 +43,11 @@ After some programming and algorithms, we were able to gather the following resu
   + A high risk precision score of 0.04 and a recall score of 0.67.
   + A low risk precision score of 1.00 and a recall score of 0.91.
 
-
 ### The Easy Ensemble AdaBoost Classifier method has:
 
   + A balanced accuracy score of 0.92542.
   + A high risk precision score of 0.07 and a recall score of 0.91.
   + A low risk precision score of 1.00 and a recall score of 0.94.
-
 
 ## Summary
 
