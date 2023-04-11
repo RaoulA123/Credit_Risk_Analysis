@@ -14,6 +14,7 @@ The following are the results from the Imbalanced Classification report and the 
   + A high risk precision score of 0.01 and a recall score of 0.68.
   + A low risk precision score of 1.00 and a recall score of 0.62.
 
+![Naive Random](https://user-images.githubusercontent.com/115424156/231075091-724c78f9-6039-4194-b4fe-ee1fe8c8763b.png)
 
 
 ### SMOTE Oversampling method:
@@ -22,12 +23,15 @@ The following are the results from the Imbalanced Classification report and the 
   + A high risk precision score of 0.01 and a recall score of 0.63.
   + A low risk precision score of 1.00 and a recall score of 0.68.
 
+![SMOTE](https://user-images.githubusercontent.com/115424156/231075137-9b2e801b-6a94-433a-8f38-f644787d523e.png)
 
 ### Undersampling method:
 
   + A balanced accuracy score of 0.5447
   + A high risk precision score of 0.01 and a recall score of 0.72.
   + A low risk precision score of 1.00 and a recall score of 0.57.
+  
+![Undersampling](https://user-images.githubusercontent.com/115424156/231075183-3b002378-29d1-46a3-ab7e-ac48a597df8d.png)
 
 
 ### Combination (Over and Under) Sampling method:
@@ -36,6 +40,8 @@ The following are the results from the Imbalanced Classification report and the 
   + A high risk precision score of 0.01 and a recall score of 0.76.
   + A low risk precision score of 1.00 and a recall score of 0.59.
 
+![combination under_over](https://user-images.githubusercontent.com/115424156/231075266-43554a78-2dcc-4497-93d5-f00812daf504.png)
+
 
 ### Balanced Random Forest Classifier method:
 
@@ -43,11 +49,16 @@ The following are the results from the Imbalanced Classification report and the 
   + A high risk precision score of 0.04 and a recall score of 0.67.
   + A low risk precision score of 1.00 and a recall score of 0.91.
 
+![Balanced Random Forest Classifier](https://user-images.githubusercontent.com/115424156/231076225-67825338-9120-4ac7-b46c-3f34516491fe.png)
+
+
 ### Easy Ensemble AdaBoost Classifier method:
 
   + A balanced accuracy score of 0.9254
   + A high risk precision score of 0.07 and a recall score of 0.91.
   + A low risk precision score of 1.00 and a recall score of 0.94.
+
+![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/115424156/231076087-35cde481-ec67-47f3-b86b-ff27601ddc26.png)
 
 ## Summary
 
