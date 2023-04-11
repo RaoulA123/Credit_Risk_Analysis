@@ -6,7 +6,7 @@ This project is to use Machine Learning strategies such as resampling and boosti
 
 ## Results
 
-The following are results of programming, Machine Learning  methods used to assess risk: 
+The following are the results from the Imbalanced Classification report from each Machine Learning  methods used to assess risk:  
 
 ### The Naive Random Oversampling method has:
 
