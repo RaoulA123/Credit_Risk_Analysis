@@ -2,11 +2,11 @@
 
 ## Overview of the project
 
-This project is to use Machine Learning strategies such as resampling and boosting to predict if there is a credit risk before offering credit to potential customers. In addition, we will use Machine Learning for the long-term solution by creating algorithms that let us know if the person can still be a good client in the future or if it can become a risk for the company. 
+This project is to use Machine Learning strategies such as resampling and boosting to predict credit risk before offering credit to potential customers. In addition, we will use Machine Learning for the long-term solution by creating algorithms that let us know if the person can still be a good client in the future or if it can become a risk for the company. 
 
 ## Results
 
-The following are results of programming methods used to assess risk: 
+The following are results of programming, Machine Learning  methods used to assess risk: 
 
 ### The Naive Random Oversampling method has:
 
